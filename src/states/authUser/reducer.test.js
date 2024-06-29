@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { ActionType } from './actions';
+import authUserReducer from './reducer';
 
 describe('authUserReducer funtion', () => {
   it('should return the initial state when given by unknown action', () => {
